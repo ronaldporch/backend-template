@@ -11,14 +11,7 @@ const server = new ApolloServer({
   cors: {
     credentials: true,
     origin: [
-      'http://localhost:3000',
-      'http://localhost:19006',
-      'http://192.168.0.59:3000',
-      'http://warehouse27.org',
-      'https://warehouse27.org',
-      'http://concerts.warehouse27.org',
-      'https://concerts.warehouse27.org',
-      /\.warehouse27\.org$/
+      'http://localhost:3000'
     ]
   },
   playground: process.env.NODE_ENV === 'development',
