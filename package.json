@@ -1,0 +1,23 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets='@babel/preset-env'",
+    "start": "NODE_ENV=development nodemon --exec yarn babel-node src/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "luxon": "^1.25.0",
+    "winston": "^3.3.3"
+  }
+}
